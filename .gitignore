@@ -1,0 +1,5 @@
+*.DS_Store
+learnpython.dn.ua/.build/*
+*.pyc
+progress.*
+config.json

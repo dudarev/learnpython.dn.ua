@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fafafa;
+    background-image: url("../img/body.jpg");
+    border-top: 20px solid #66778c;
+    color: #424d5b;
+}
+
+body, input, select, table, td, textarea, th {
+    font-family: "Gill Sans", "Arial Narrow", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 23px;
+}
+
+a {
+    color: #5f272d;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+header {
+    margin: 20px 0;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header div.left-wrapper, header div.right-wrapper {
+    font-size: 16px;
+    height: 190px;
+    width: 330px;
+}
+
+header div.left-wrapper {
+    float: left;
+    text-align: right;
+}
+
+header div.right-wrapper {
+    float: right;
+}
+
+header div.clear {
+    clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+}
+
+header h1, header h3 {
+    color: #66778c;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+header a.active, footer a.active {
+    font-weight: bold;
+}
+
+header a.twitter-icon {
+    background-image: url("../img/twitter-icon.png");
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+header a.github-ribbon {
+    border: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+nav {
+    background-image: url("../img/pattern-small.png");
+    font-size: 22px;
+    font-weight: normal;
+    height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 320px;
+}
+
+nav ul li a {
+    background-color: #fff;
+    color: #252c34;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px 10px;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color: #fafafa;
+    color: #101316;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+nav ul li:first-child a {
+    margin-left: 20px;
+}
+
+nav ul li:last-child a {
+    margin-right: 20px;
+}
+
+nav a.subscribe {
+    background-color: #424d5b;
+    color: #fafafa;
+}
+
+nav a.subscribe.active, nav a.subscribe:hover {
+    background-color: #252c34;
+    color: #fff;
+}
+
+article {
+    background-color: #fff;
+    border-bottom: 1px solid #c6cdd6;
+    clear: both;
+    margin: 20px 0;
+    padding: 40px;
+}
+
+article dl, article ol, article p, article pre, article ul {
+    margin: 1em 0;
+}
+
+article dl:first-child, article ol:first-child, article p:first-child,
+article pre:first-child, article ul:first-child {
+    margin-top: 0;
+}
+
+article dl:last-child, article ol:last-child, article p:last-child,
+article pre:last-child, article ul:last-child {
+    margin-bottom: 0;
+}
+
+article h1, article h2, article h3 {
+    font-weight: normal;
+}
+
+article hr {
+    background-color: #c6cdd6;
+    border: 0;
+    height: 1px;
+    margin: 1em 0;
+}
+
+article li p {
+    margin: 0;
+}
+
+article ol, article ul {
+    margin-left: 2em;
+}
+
+article .tabs .tab {
+    display: none;
+}
+
+article .tabs .tab.active {
+    display: block;
+}
+
+form input[type="text"] {
+    border: 0;
+    border-bottom: 1px solid #c6cdd6;
+    padding: 3px 6px;
+}
+
+form input[type="text"], form textarea {
+    background-color: #fafafa;
+}
+
+form input[type="text"].required {
+    border-bottom-color: #9eaaba;
+}
+
+form textarea {
+    border: 1px solid #c6cdd6;
+    padding: 3px 6px;
+}
+
+form textarea.required {
+    border-color: #9eaaba;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    background-color: #fff !important;
+    border-color: #65778d !important;
+}
+
+form .buttons input {
+    background-color: #fafafa;
+    border: 1px solid #9eaaba;
+    font-weight: normal;
+    padding: 4px 20px;
+}
+
+form .buttons input:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+form .error {
+    color: #c00;
+}
+
+form .error-line, form p.error-line {
+    margin: -0.5em 0;
+}
+
+form .error-line #name-error, form .error-line #email-error {
+    display: inline-block;
+    width: 437px;
+}
+
+form .error-line.three-in-a-row #name-error,
+form .error-line.three-in-a-row #email-error,
+form .error-line #phone-error {
+    width: 288px;
+}
+
+form #name, form #email {
+    width: 425px;
+}
+
+form #subject {
+    width: 868px;
+}
+
+form #message, form #comments {
+    width: 866px;
+}
+
+form .three-in-a-row #name, form .three-in-a-row #phone {
+    width: 277px;
+}
+
+form .three-in-a-row #email {
+    width: 279px;
+}
+
+form .flow-wrapper label {
+    padding-left: 6px;
+    color: #999;
+}
+
+form .flow-wrapper select {
+    background-color: #fafafa;
+    border: 1px solid #9eaaba;
+    padding: 2px 5px;
+    width: 300px;
+}
+
+footer {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 20px 0;
+}
+
+.tabs .tab {
+    display: none;
+}
+
+.tabs .tab.active {
+    display: block;
+}
+
+::-webkit-input-placeholder {
+    color: #999;
+}
+
+:-moz-placeholder {
+    color: #999;
+}

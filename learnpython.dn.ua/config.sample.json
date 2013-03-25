@@ -1,0 +1,6 @@
+{
+    "aws-access-key": "", 
+    "aws-secret-key": "",
+    "aws-bucket-name": "learnpython.dn.ua", 
+    "aws-bucket-website": "learnpython.dn.ua.s3-website-us-east-1.amazonaws.com"
+}
