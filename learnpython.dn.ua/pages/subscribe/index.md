@@ -3,4 +3,8 @@ block: content
 is_subscribe: True
 title: Регистрация
 
-<iframe src="https://docs.google.com/forms/d/13awyLNYo9Vh0nbAIErydY5TGo2eFuu9zfeQ6NilcCn0/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+Предварительная регистрация на первый курс закрыта. Было подано очень много заявок и поэтому сейчас идет регистрация с более "суровыми" условиями.
+
+Ссылку на эту регистрацию можно найти в [Google группе](https://groups.google.com/forum/?fromgroups=#!forum/learnpythondnua), созданной для обсуждения всех вопросов связанных с курсами. В результате этой регистрации будут отобраны 15 человек для курсов, о чем и будет сообщено в той же группе не позднее 11 апреля.
+
+В будущем мы планируем еще несколько курсов, которые будут подходить как для новичков, так и для продвинутых питонистов.

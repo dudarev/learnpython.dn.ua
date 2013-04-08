@@ -46,7 +46,8 @@ Django. В процессе мы осветим большинство прак�
 ## Курсы проходят при поддержке
 
 - [Steelkiwi](http://steelkiwi.com)
-- [Ncryptedcloud](https://www.ncryptedcloud.com/)
+- [nCrypted Cloud](https://www.ncryptedcloud.com/)
+- [42 Coffee Cups](http://42coffeecups.com/)
 
 Успешно прошедшие курсы смогут трудоустроиться.
 
