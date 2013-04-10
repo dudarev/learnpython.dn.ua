@@ -3,3 +3,4 @@ learnpython.dn.ua/.build/*
 *.pyc
 progress.*
 config.json
+scripts/emails.txt
