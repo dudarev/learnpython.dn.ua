@@ -1,2 +1,3 @@
-Cactus==2.2.0
+https://github.com/koenbok/Cactus/tarball/v2.2.0#egg=Cactus-2.2.0
 Markdown==2.3
+https://github.com/django/django/tarball/1.5.1#egg=Django
