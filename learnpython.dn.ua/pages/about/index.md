@@ -19,6 +19,14 @@ block: content
 
     Python-разработчик с 5-летним стажем.
 
+-   [Антон Артюх](https://plus.google.com/116813473815134250553/about) (эксперт)
+
+    Software Engineer в Exadel.
+
+-   [Алексей "LXj" Алексеев](https://plus.google.com/112032246963570217536/about) (эксперт)
+
+    Python-разработчик в 42 coffee cups.
+
     
 Мы дружим с [Киевскими питонистами](http://learnpython.in.ua), которые это движение начали.
 
